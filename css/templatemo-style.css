@@ -148,6 +148,29 @@ http://www.templatemo.com/tm-509-hydro
     text-align: center;
   }
 
+  .video-box {
+    border: 1px solid #fbfbfb;
+    margin: 20px;
+    padding: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fbfbfb;
+  }
+
+  .video-box iframe {
+    padding:  0;
+    width: 100%;
+  }
+
+  .video-box h3 {
+    padding-top: 20px;
+  }
+
+  .video-box p {
+    font-size: 12px;
+    padding: 15px;
+  }
+
 
   /*---------------------------------------
        PRE LOADER              
