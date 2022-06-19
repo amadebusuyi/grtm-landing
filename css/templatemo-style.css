@@ -170,6 +170,48 @@ http://www.templatemo.com/tm-509-hydro
     padding: 15px;
   }
 
+  .partners {
+    padding: 30px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-column: 1;
+    /*column-gap: 40px;
+    row-gap: 40px;*/
+    align-items: left;
+    align-content: left;
+  }
+
+  .partners .heading {
+    position: relative;
+    text-align: left;
+  }
+
+  .partners .heading p {
+    position: absolute;
+    width: 80vw;
+  }
+
+  .partners .video-box {
+    padding: 20px !important;
+    height: auto !important;
+  }
+
+  .partners .video-box h3 {
+      text-align: center;
+  }
+
+  .partners .video-box p {
+      font-size: 1.5rem !important;
+  }
+  
+  .partners .video-box a {
+      position: relative;
+      left: 35%;
+      top: 30px;
+  }
+
+
 
   /*---------------------------------------
        PRE LOADER              
