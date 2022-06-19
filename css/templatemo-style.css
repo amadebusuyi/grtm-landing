@@ -182,6 +182,12 @@ http://www.templatemo.com/tm-509-hydro
     align-content: left;
   }
 
+  @media (max-width: 767px) {
+    .partners {
+      grid-template-columns: auto;
+    }
+  }
+
   .partners .heading {
     position: relative;
     text-align: left;
