@@ -184,8 +184,7 @@ http://www.templatemo.com/tm-509-hydro
 
   @media (max-width: 767px) {
     .partners {
-      grid-template-columns: auto;
-    }
+      grid-template-columns: auto;    }
   }
 
   .partners .heading {
@@ -218,6 +217,18 @@ http://www.templatemo.com/tm-509-hydro
   }
 
 
+  @media (max-width: 456px) {
+    .partners {
+      grid-template-columns: auto;
+      padding: 20px 0;
+    }
+
+    .partners .video-box a {
+      position: relative;
+      left: 15%;
+      top: 30px;
+    }
+  }
 
   /*---------------------------------------
        PRE LOADER              
