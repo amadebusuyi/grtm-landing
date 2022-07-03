@@ -7,9 +7,29 @@ http://www.templatemo.com/tm-509-hydro
 */  
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
+  @font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/Poppins-SemiBold.ttf'); 
+  }
+
   body {
     background: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins-Regular, sans-serif;
     overflow-x: hidden;
   }
 
@@ -19,7 +39,7 @@ http://www.templatemo.com/tm-509-hydro
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
-    font-weight: 300;
+    font-weight: 400;
     line-height: inherit;
     letter-spacing: -1px;
   }
@@ -46,6 +66,11 @@ http://www.templatemo.com/tm-509-hydro
     color: #696969;
     font-size: 18px;
     line-height: normal;
+  }
+
+  h5 {
+    font-size: 15px;
+    line-height: 25px;
   }
 
   p {
